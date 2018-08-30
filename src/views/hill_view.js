@@ -28,17 +28,16 @@ HillView.prototype.createHillHeading = function () {
 HillView.prototype.createHillDetailsList = function () {
   const hillDetailsList = document.createElement('ul');
   hillDetailsList.classList.add('details');
-  console.log("hillo");
   this.populateList(hillDetailsList);
   return hillDetailsList;
 }
 
 HillView.prototype.populateList = function (list) {
     const hillMeaningListItem = document.createElement('li');
-    hillMeaningListItem.textContent = this.hill.meaning;
+    hillMeaningListItem.textContent = `Meaning: ${this.hill.meaning}`;
     list.appendChild(hillMeaningListItem);
     const hillHeightListItem = document.createElement('li');
-    hillHeightListItem.textContent = this.hill.height;
+    hillHeightListItem.textContent = `Height: ${this.hill.height}m`;
     list.appendChild(hillHeightListItem);
   }
 
