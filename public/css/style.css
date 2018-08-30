@@ -1,0 +1,25 @@
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2.8em;
+  text-align: center;
+  padding-top: 30px;
+}
+
+body {
+  font-family: 'Josefin Slab', serif;
+  background-color: #f1f1f1;
+    background-image: url('https://i.pinimg.com/originals/e0/16/e6/e016e6a503e43687e0869adf75ba287e.jpg');
+    background-attachment: fixed;
+  margin: 0;
+}
+
+main {
+    background-color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 20px;
+    clear: left;
+}

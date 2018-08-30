@@ -32,9 +32,8 @@ HillView.prototype.createHillDetailsList = function () {
   this.populateList(hillDetailsList);
   return hillDetailsList;
 }
-//
-HillView.prototype.populateList = function (list) {
 
+HillView.prototype.populateList = function (list) {
     const hillMeaningListItem = document.createElement('li');
     hillMeaningListItem.textContent = this.hill.meaning;
     list.appendChild(hillMeaningListItem);
@@ -42,8 +41,5 @@ HillView.prototype.populateList = function (list) {
     hillHeightListItem.textContent = this.hill.height;
     list.appendChild(hillHeightListItem);
   }
-
-
-
 
 module.exports = HillView;
